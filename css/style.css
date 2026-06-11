@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.topo{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.rodape{
+    background-color: black;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hamburguer{
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.lin{
+    background-color: white;
+    width: 25px;
+    height: 2px;
+}
+.logo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
